@@ -3,7 +3,7 @@
 //  Swift app
 //
 //  Created by Trevor Tarnowski on 3/17/17.
-//  Copyright © 2017 Trevor Tarnowski. All rights reserved.
+//  Copyright © 2017 Trevor Tarnowski. All rights reserved..
 //
 
 import UIKit
