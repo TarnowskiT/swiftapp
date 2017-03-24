@@ -27,37 +27,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="odo-Iq-w1C">
-                                <rect key="frame" x="137.5" y="126" width="25.5" height="50"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="odo-Iq-w1C">
+                                <rect key="frame" x="138" y="126" width="26" height="50"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6Eo-jH-d1g">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6Eo-jH-d1g">
                                         <rect key="frame" x="0.0" y="0.0" width="25.5" height="50"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dvl-hD-Evk">
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dvl-hD-Evk">
                                                 <rect key="frame" x="0.0" y="0.0" width="25.5" height="50"/>
                                             </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VyI-dK-zA0">
-                                <rect key="frame" x="164" y="105" width="46" height="39.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VyI-dK-zA0">
+                                <rect key="frame" x="164" y="105" width="46" height="40"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JL0-AL-kKV">
-                                <rect key="frame" x="154" y="119.5" width="67" height="39.5"/>
+                                <rect key="frame" x="154" y="119.5" width="67" height="30"/>
                                 <state key="normal" title="PUSH ME"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="baO-wL-ynt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8A-FF-Mbo">
-                                <rect key="frame" x="141" y="168" width="94" height="30"/>
-                                <state key="normal" title="No, PUSH ME"/>
-                                <connections>
-                                    <action selector="buttonTapped2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TYN-wE-QkY"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wDl-b7-fj8">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wDl-b7-fj8">
                                 <rect key="frame" x="137.5" y="207" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Y1N-o0-rUX"/>
@@ -66,7 +59,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdK-G0-Eqm">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdK-G0-Eqm">
                                 <rect key="frame" x="137.5" y="246" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="2ow-dO-1u9"/>
@@ -85,15 +78,11 @@
                             <constraint firstItem="kdK-G0-Eqm" firstAttribute="top" secondItem="wDl-b7-fj8" secondAttribute="bottom" constant="9" id="CiK-me-55K"/>
                             <constraint firstItem="JL0-AL-kKV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Klk-Gf-SiA"/>
                             <constraint firstItem="VyI-dK-zA0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lda-0y-kdW"/>
-                            <constraint firstItem="y8A-FF-Mbo" firstAttribute="top" secondItem="VyI-dK-zA0" secondAttribute="bottom" constant="24" id="M57-ye-sOM"/>
                             <constraint firstItem="VyI-dK-zA0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="85" id="Pgm-wD-1I3"/>
-                            <constraint firstItem="y8A-FF-Mbo" firstAttribute="top" secondItem="JL0-AL-kKV" secondAttribute="bottom" constant="9" id="QeK-37-O2O"/>
                             <constraint firstItem="veM-mj-WJc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RMy-ah-IdN"/>
                             <constraint firstItem="kdK-G0-Eqm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xho-V3-3ym"/>
-                            <constraint firstItem="wDl-b7-fj8" firstAttribute="top" secondItem="y8A-FF-Mbo" secondAttribute="bottom" constant="9" id="YXu-6T-MGN"/>
                             <constraint firstItem="wDl-b7-fj8" firstAttribute="top" secondItem="odo-Iq-w1C" secondAttribute="bottom" constant="31" id="khf-Um-NVq"/>
                             <constraint firstItem="odo-Iq-w1C" firstAttribute="leading" secondItem="kdK-G0-Eqm" secondAttribute="leading" id="lqL-2i-tcl"/>
-                            <constraint firstItem="y8A-FF-Mbo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p98-BR-aOG"/>
                             <constraint firstItem="VyI-dK-zA0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="164" id="qCl-BA-bTC"/>
                             <constraint firstItem="veM-mj-WJc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="rFM-Mh-O1E"/>
                             <constraint firstItem="JL0-AL-kKV" firstAttribute="top" secondItem="veM-mj-WJc" secondAttribute="bottom" constant="9" id="sFc-ck-27q"/>
